@@ -6,5 +6,10 @@
         Home
       </a>
     </li>
+    <li>
+      <a href="calc.php">
+        Calculator
+      </a>
+    </li>
   </ul>
 </nav>
