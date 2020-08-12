@@ -8,6 +8,13 @@ include 'templates/header.php';
 
   <?php include 'templates/navigation.php'; ?>
 
+  <?php
+    // $_POST $_GET
+    echo '<pre>'; // var_dump is our best friend, it outputs all the info for the variable and/or expression we pass it!
+    var_dump( $_GET );
+    echo '</pre>';
+  ?>
+
   <h2>PHP Calculator Form</h2>
   <form action="calc.php" method="GET">
     <label for="num1">
