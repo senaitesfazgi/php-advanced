@@ -8,6 +8,7 @@ include 'templates/header.php';
 
   <?php include 'templates/navigation.php'; ?>
 
+  <h2>PHP Calculator Form</h2>
   <form action="calc.php" method="GET">
     <label for="num1">
       First Operand:
